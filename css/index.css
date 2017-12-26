@@ -1,0 +1,465 @@
+@charset "utf-8";
+.warpper_container {
+  background-color: white;
+  overflow: hidden;
+}
+.PG_banner {
+  position: relative;
+  margin: 0 auto;
+  width: 10rem;
+  height: 16.109375rem;
+  text-align: center;
+  background: url("../img/bg_banner.png") no-repeat;
+  background-size: 100%;
+  color: white;
+}
+.PG_banner .logo_title {
+  display: inline-block;
+  position: absolute;
+  top: 1.5625rem;
+  left: 3.28125rem;
+  width: 5.15625rem;
+  height: 0.546875rem;
+  font-size: 0.46875rem;
+}
+.PG_banner h1 {
+  display: inline-block;
+  margin-top: 4.0625rem;
+  width: 6.71875rem;
+  height: 1.09375rem;
+  font-size: 1.09375rem;
+  line-height: 1.09375rem;
+  letter-spacing: 0.015625rem;
+}
+.PG_banner h2 {
+  display: inline-block;
+  width: 6.71875rem;
+  height: 1.09375rem;
+  font-size: 1.09375rem;
+  line-height: 1.09375rem;
+  letter-spacing: 0.03125rem;
+}
+.PG_banner h2 .one_stop {
+  display: inline-block;
+  position: relative;
+  top: 0.15625rem;
+  width: 3.34375rem;
+  height: 1.109375rem;
+  background: url("../img/one_stop.png") no-repeat;
+  background-size: cover;
+}
+.PG_banner .banger_desc {
+  position: relative;
+  margin: auto;
+  margin-top: 1.40625rem;
+  height: 1.40625rem;
+  font-size: 0.46875rem;
+  text-align: left;
+}
+.PG_banner .banger_desc ul li {
+  display: inline-block;
+  width: 4.53125rem;
+  text-align: justify;
+}
+.PG_banner .banger_desc ul li:nth-child(odd) {
+  padding-left: 0.9375rem;
+}
+.PG_banner h3 {
+  display: inline-block;
+  margin: auto;
+  margin-top: 1.1875rem;
+  width: 9.84375rem;
+  height: 0.3125rem;
+  font-size: 0.375rem;
+  font-weight: lighter;
+}
+.PG_banner h3 span {
+  color: yellow;
+  text-decoration: underline;
+}
+.PG_banner .from_cell {
+  margin-top: 0.46875rem;
+}
+.PG_banner .from_cell input {
+  width: 7.75rem;
+  height: 1.34375rem;
+  border: 1px solid #ccc;
+  border-radius: 0.671875rem;
+  text-align: center;
+  font-size: 0.46875rem;
+  background-color: transparent;
+}
+.PG_banner .from_btn {
+  margin-top: 0.3125rem;
+}
+.PG_banner .from_btn button {
+  width: 7.75rem;
+  height: 1.34375rem;
+  text-align: center;
+  font-size: 0.46875rem;
+  color: white;
+  background: url("../img/gold_btn.png") no-repeat;
+  background-size: 100%;
+}
+.PG_banner .phone {
+  position: fixed;
+  top: 5.625rem;
+  right: 0;
+  z-index: 999;
+}
+.PG_banner .phone a img {
+  display: block;
+  width: 0.890625rem;
+  height: 2.5rem;
+}
+.PG_Birth_process {
+  position: relative;
+  margin: 0 auto;
+  width: 10rem;
+  height: 16.046875rem;
+  text-align: center;
+  background: url("../img/bg_Bprocess.jpg") no-repeat;
+  background-size: 100%;
+}
+.PG_Birth_process h3 {
+  padding-top: 0.875rem;
+  height: 0.78125rem;
+  font-size: 0.5rem;
+  color: #43396b;
+}
+.PG_Birth_process .PG_Birth_process_subtitle {
+  display: block;
+  margin-top: 0.9375rem;
+  height: 0.9375rem;
+  font-size: 0.78125rem;
+  line-height: 0.9375rem;
+  color: #43396b;
+  font-weight: 700;
+}
+.PG_Birth_process .PG_Birth_process_subtitle span {
+  padding: 0 0.15625rem;
+  font-size: 1.125rem;
+  color: #fb5262;
+}
+.PG_Birth_process .process_desc_visa {
+  margin-top: 2.265625rem;
+  margin-left: 2.03125rem;
+  text-align: left;
+  font-size: 0.375rem;
+  color: white;
+}
+.PG_Birth_process .process_desc_birth {
+  margin-top: 2.1875rem;
+  margin-left: 2.03125rem;
+  text-align: left;
+  font-size: 0.375rem;
+  color: white;
+}
+.PG_Birth_process .process_desc_birth p {
+  font-size: 0.46875rem;
+  font-weight: 600;
+  letter-spacing: 0.03125rem;
+}
+.PG_visa {
+  position: relative;
+  margin: 0 auto;
+  width: 10rem;
+  height: 15.625rem;
+  text-align: center;
+  color: white;
+  background: url("../img/visa.jpg") no-repeat;
+  background-size: 100%;
+}
+.PG_visa h2 {
+  padding-top: 2.03125rem;
+  font-size: 0.46875rem;
+  font-weight: 400;
+}
+.PG_visa .h2_subtile {
+  padding-top: 0.15625rem;
+  font-size: 0.46875rem;
+}
+.PG_visa h3 {
+  margin-top: 1.09375rem;
+  font-size: 0.65625rem;
+}
+.PG_visa h4 {
+  margin-top: 0.46875rem;
+  font-size: 0.46875rem;
+  font-weight: 400;
+}
+.PG_visa h4 span {
+  font-weight: 600;
+  font-size: 0.65625rem;
+}
+.PG_visa .uscbp_name {
+  position: absolute;
+  bottom: 4.03125rem;
+  left: 1.25rem;
+  width: 1.875rem;
+  height: 0.625rem;
+  font-size: 0.3125rem;
+  font-weight: 400;
+}
+.PG_visa .uscbp_name strong {
+  font-size: 0.328125rem;
+  font-weight: 600;
+}
+.PG_visa .uscbp_desc {
+  position: absolute;
+  bottom: 2.75rem;
+  right: 0.46875rem;
+  width: 5.46875rem;
+  height: 2.8125rem;
+  font-size: 0.34375rem;
+  font-weight: 400;
+  text-align: justify;
+}
+.PG_septOne {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: 10rem;
+  height: 16.890625rem;
+  text-align: center;
+  color: white;
+  background: url("../img/bg_setp1.jpg") no-repeat;
+  background-size: 100%;
+}
+.PG_septOne h2 {
+  padding-top: 2.625rem;
+  padding-left: 0.703125rem;
+  width: 6.796875rem;
+  height: 1.40625rem;
+  font-size: 0.46875rem;
+}
+.PG_septOne .septOne_desc {
+  margin-top: 5.1875rem;
+  margin-left: 0.78125rem;
+  width: 8.4375rem;
+  height: 6.25rem;
+  font-size: 0.4375rem;
+}
+.PG_septOne .septOne_desc ul li {
+  display: inline-block;
+  text-align: center;
+  width: 3.59375rem;
+  height: 1.09375rem;
+}
+.PG_septOne .septOne_desc ul li:nth-child(1) {
+  margin-left: -0.46875rem;
+}
+.PG_septOne .septOne_desc ul li:nth-child(2) {
+  width: 4.375rem;
+  padding-left: 0.78125rem;
+}
+.PG_septOne .septOne_desc ul li:nth-child(3) {
+  margin-left: -0.3125rem;
+  padding-top: 4.0625rem;
+}
+.PG_septOne .septOne_desc ul li:nth-child(4) {
+  width: 4.84375rem;
+  padding-top: 4.0625rem;
+  padding-left: 0.78125rem;
+}
+.PG_septTwo {
+  position: relative;
+  z-index: 2;
+  bottom: 3.4375rem;
+  margin: 0 auto;
+  width: 10rem;
+  height: 19.546875rem;
+  text-align: center;
+  background: url("../img/bg_setp2.png") no-repeat;
+  background-size: 100%;
+}
+.PG_septTwo h2 {
+  padding-top: 4.0625rem;
+  padding-left: 0.78125rem;
+  font-size: 0.53125rem;
+  color: #43396b;
+}
+.PG_septTwo .septTwo_desc {
+  width: 4.375rem;
+  height: 11.5625rem;
+  text-align: left;
+  margin-left: 4.53125rem;
+  font-size: 0.375rem;
+}
+.PG_septTwo .septTwo_desc li {
+  margin-top: 1.25rem;
+}
+.PG_septTwo .septTwo_desc li .desc_title {
+  font-weight: 600;
+  margin-bottom: 0.3125rem;
+}
+.PG_septTwo .septTwo_desc li .desc_summry {
+  font-weight: 500;
+  color: #6b6b6b;
+}
+.PG_from {
+  position: relative;
+  bottom: 3.4375rem;
+  margin: 0 auto;
+  width: 10rem;
+  height: 13.59375rem;
+  text-align: center;
+}
+.PG_from h2 {
+  padding-top: 0.46875rem;
+  font-size: 0.53125rem;
+  color: #fb5260;
+}
+.PG_from h2 span {
+  color: #55416e;
+}
+.PG_from .form_subtitle {
+  position: relative;
+  z-index: 5;
+  margin-top: 0.46875rem;
+  margin-right: 0.46875rem;
+  margin-left: 0.46875rem;
+  width: 9.0625rem;
+  height: 3.75rem;
+  border-radius: 0.3125rem;
+  border: 0.078125rem solid #dd4e54;
+}
+.PG_from .form_subtitle h3 {
+  margin-top: 0.9375rem;
+  margin-left: 0.234375rem;
+  padding-left: 0.3125rem;
+  width: 7.34375rem;
+  height: 0.9375rem;
+  font-size: 0.34375rem;
+  font-weight: 400;
+  text-align: left;
+  border-left: 0.046875rem solid #fb5260;
+}
+.PG_from .form_cell {
+  position: relative;
+  z-index: 6;
+  bottom: 1.5625rem;
+  margin-top: 0.46875rem;
+  margin-right: 0.546875rem;
+  margin-left: 0.546875rem;
+  width: 8.90625rem;
+  height: 8.59375rem;
+  border-radius: 0.3125rem;
+  background-color: white;
+  box-shadow: 0 4px 7px -1px #9E9E9E;
+}
+.PG_from .form_cell form ul li {
+  display: inline-block;
+  width: 2.890625rem;
+}
+.PG_from .form_cell form ul li label {
+  font-size: 0.375rem;
+}
+.PG_from .form_cell form ul li input {
+  width: 1.25rem;
+  height: 0.78125rem;
+  color: black;
+  border: 0.015625rem solid red;
+  border-radius: 0.078125rem;
+  text-align: center;
+}
+.PG_from .form_cell form ul li:nth-child(1) input {
+  width: 1.5625rem;
+  border: 0.015625rem solid red;
+  border-radius: 0.078125rem;
+}
+.PG_from .form_cell form ul li:nth-child(2) {
+  width: 2.34375rem;
+}
+.PG_from .form_cell form ul li:nth-child(2) input {
+  width: 1.25rem;
+  border: 0.015625rem solid red;
+  border-radius: 0.078125rem;
+}
+.PG_from .form_cell form ul li:nth-child(4) {
+  width: 8.4375rem;
+  margin-top: 0.625rem;
+}
+.PG_from .form_cell form ul li:nth-child(4) input {
+  width: 6.71875rem;
+  border: 0.015625rem solid red;
+  border-radius: 0.078125rem;
+}
+.PG_from .form_cell form .time-form-group {
+  margin-top: 0.625rem;
+  margin-left: 0.46875rem;
+  width: 6.25rem;
+  height: 1.21875rem;
+  font-size: 0.375rem;
+}
+.PG_from .form_cell form .time-form-group span {
+  display: inline-block;
+  margin-right: 0.625rem;
+  letter-spacing: 0.3125rem;
+}
+.PG_from .form_cell form .time-form-group label:nth-child(3) {
+  display: inline-block;
+  margin-left: 2.109375rem;
+}
+.PG_from .form_cell form .way-form-group {
+  margin-top: 0.625rem;
+  font-size: 0.375rem;
+}
+.PG_from .form_cell form .way-form-group span {
+  display: inline-block;
+  position: relative;
+  right: 0.625rem;
+}
+.PG_from .form_cell form .commit-btn {
+  margin-top: 0.78125rem;
+}
+.PG_from .form_cell form .commit-btn button {
+  width: 6.40625rem;
+  height: 1.40625rem;
+  border-radius: 1.40625rem;
+  background-color: #f34d60;
+  color: white;
+  font-size: 0.46875rem;
+}
+.PG_footer {
+  position: relative;
+  bottom: 3.125rem;
+  margin-bottom: 0;
+  width: 10rem;
+  height: 8.203125rem;
+  text-align: center;
+  background: url("../img/bg_footer.jpg") no-repeat;
+  background-size: 100%;
+}
+.PG_footer .our_Hightlights {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-left: 1.5625rem;
+  width: 8.125rem;
+  height: 4.21875rem;
+  color: white;
+}
+.PG_footer .our_Hightlights ul li {
+  display: inline-block;
+  width: 4.140625rem;
+  height: 0.3125rem;
+  padding-top: 0.15625rem;
+  text-align: left;
+  font-size: 0.3125rem;
+}
+.PG_footer .our_Hightlights ul li:nth-child(odd) {
+  margin-left: -0.78125rem;
+}
+.PG_footer .copyright {
+  position: absolute;
+  margin: auto;
+  right: 50%;
+  margin-right: -5rem;
+  bottom: 0.46875rem;
+  width: 10rem;
+  height: 0.359375rem;
+  color: white;
+  font-size: 0.1875rem;
+  text-align: center;
+}
