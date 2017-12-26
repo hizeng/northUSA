@@ -302,7 +302,7 @@
   bottom: 3.4375rem;
   margin: 0 auto;
   width: 10rem;
-  height: 13.59375rem;
+  height: 10.46875rem;
   text-align: center;
 }
 .PG_from h2 {
@@ -423,7 +423,8 @@
 }
 .PG_footer {
   position: relative;
-  bottom: 3.125rem;
+  top: 0.15625rem;
+  margin: 0 auto;
   margin-bottom: 0;
   width: 10rem;
   height: 8.203125rem;
