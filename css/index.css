@@ -397,6 +397,14 @@
   margin-right: 0.625rem;
   letter-spacing: 0.3125rem;
 }
+.PG_from .form_cell form .time-form-group label {
+  line-height: 1.8;
+}
+.PG_from .form_cell form .time-form-group label:nth-child(2) {
+  display: inline-block;
+  position: relative;
+  left: 0.078125rem;
+}
 .PG_from .form_cell form .time-form-group label:nth-child(3) {
   display: inline-block;
   margin-left: 2.109375rem;
@@ -423,11 +431,10 @@
 }
 .PG_footer {
   position: relative;
-  top: 0.15625rem;
   margin: 0 auto;
   margin-bottom: 0;
   width: 10rem;
-  height: 8.203125rem;
+  height: 8.078125rem;
   text-align: center;
   background: url("../img/bg_footer.jpg") no-repeat;
   background-size: 100%;
@@ -457,7 +464,7 @@
   margin: auto;
   right: 50%;
   margin-right: -5rem;
-  bottom: 0.46875rem;
+  bottom: 0.625rem;
   width: 10rem;
   height: 0.359375rem;
   color: white;
