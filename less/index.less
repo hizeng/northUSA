@@ -93,14 +93,27 @@
 	.from_input{
 		margin-top:30/@ppr;
 		input{
+			padding-left:30/@ppr;
 			width:496/@ppr;
 			height:86/@ppr;
 			border: 1px solid #ccc;
 			border-radius: 43/@ppr;
-			text-align:center;
 			font-size:30/@ppr;
+			color:white;
             background-color:transparent;
            
+		}
+		.errorBanger{
+			display: block;
+			position: absolute;
+		    right: 100/@ppr;
+		    bottom: 252/@ppr;
+		    font-size: 24/@ppr;
+		    line-height:24/@ppr;
+		    font-style: normal;
+		    color: red;
+		    font-weight: 200;
+
 		}
 	}
 	.from_btn{
@@ -414,10 +427,27 @@
 					input{
 						width:80/@ppr;
 						height:50/@ppr;
+						font-size:24/@ppr;
 						color:black;
 						border: 1/@ppr solid red;
 						border-radius:5/@ppr;
-						text-align:center;
+						text-align: center;
+					}
+					.phoneInfo{
+						padding-left:40/@ppr;
+						text-align: left;
+					}
+					.errorInfo{
+						display: block;
+						position: absolute;
+					    right: 80/@ppr;
+					    bottom: 425/@ppr;
+					    font-size: 24/@ppr;
+					    line-height:24/@ppr;
+					    font-style: normal;
+					    color: red;
+					    font-weight: 200;
+
 					}
 
 				}
@@ -490,6 +520,9 @@
 				text-align:left;
 				label{
 					margin-right:23/@ppr;
+					input{
+						background:red;
+					}
 					span{
 						display:inline-block;
 						margin-left:20/@ppr;

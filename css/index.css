@@ -81,13 +81,25 @@
   margin-top: 0.46875rem;
 }
 .PG_banner .from_input input {
+  padding-left: 0.46875rem;
   width: 7.75rem;
   height: 1.34375rem;
   border: 1px solid #ccc;
   border-radius: 0.671875rem;
-  text-align: center;
   font-size: 0.46875rem;
+  color: white;
   background-color: transparent;
+}
+.PG_banner .from_input .errorBanger {
+  display: block;
+  position: absolute;
+  right: 1.5625rem;
+  bottom: 3.9375rem;
+  font-size: 0.375rem;
+  line-height: 0.375rem;
+  font-style: normal;
+  color: red;
+  font-weight: 200;
 }
 .PG_banner .from_btn {
   margin-top: 0.3125rem;
@@ -381,10 +393,26 @@
 .PG_from .form_cell form ul li input {
   width: 1.25rem;
   height: 0.78125rem;
+  font-size: 0.375rem;
   color: black;
   border: 0.015625rem solid red;
   border-radius: 0.078125rem;
   text-align: center;
+}
+.PG_from .form_cell form ul li .phoneInfo {
+  padding-left: 0.625rem;
+  text-align: left;
+}
+.PG_from .form_cell form ul li .errorInfo {
+  display: block;
+  position: absolute;
+  right: 1.25rem;
+  bottom: 6.640625rem;
+  font-size: 0.375rem;
+  line-height: 0.375rem;
+  font-style: normal;
+  color: red;
+  font-weight: 200;
 }
 .PG_from .form_cell form ul li:nth-child(1) input {
   width: 1.5625rem;
@@ -448,6 +476,9 @@
 }
 .PG_from .form_cell form .time-form-group-down label {
   margin-right: 0.359375rem;
+}
+.PG_from .form_cell form .time-form-group-down label input {
+  background: red;
 }
 .PG_from .form_cell form .time-form-group-down label span {
   display: inline-block;
