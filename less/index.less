@@ -103,6 +103,7 @@
             background-color:transparent;
            
 		}
+	
 		.errorBanger{
 			display: block;
 			position: absolute;
@@ -432,7 +433,9 @@
 						border: 1/@ppr solid red;
 						border-radius:5/@ppr;
 						text-align: center;
+
 					}
+					
 					.phoneInfo{
 						padding-left:40/@ppr;
 						text-align: left;
@@ -479,7 +482,7 @@
 				}
 			}
 
-			.time-form-group-up{
+			.time-form-group-up{				
                 position:relative;
 				margin-top:40/@ppr;
 				margin-left:30/@ppr;
@@ -491,7 +494,7 @@
 				h4{  
 					position:relative;
 					display:inline-block;
-				    margin-right:20/@ppr;
+				    margin-right:1/@ppr;
 					width:90/@ppr;
 					height:23/@ppr;
 					line-height:23/@ppr;
@@ -500,11 +503,33 @@
 					font-weight:400;
 				}
 				label{
-					 margin-right:20/@ppr;
+					margin-left:20/@ppr;
 					span{
 						display:inline-block;
-						margin-left:20/@ppr;
 					}
+					 .radio-beauty{
+					 	width: 25/@ppr;
+				        height: 25/@ppr;
+				        box-sizing: border-box;
+				        display: inline-block;
+				        border: 1/@ppr solid #ccc;
+				        vertical-align: middle;
+				        margin: 0 25/@ppr 0 0;
+				        border-radius: 50%;
+				        &:hover{
+
+				        padding: 5/@ppr;
+						background-color:green;
+						background-clip: content-box;
+				        }
+					 }
+				   input[type="radio"]:checked+.radio-beauty {
+				        padding: 5/@ppr;
+						background-color:#fc8b94;
+						background-clip: content-box;
+				    }
+
+
 				}
 			
 
@@ -512,22 +537,46 @@
 			.time-form-group-down{
 				position:relative;
 				margin-top:40/@ppr;
-				margin-left:150/@ppr;
+				margin-left:130/@ppr;
 				font-size:24/@ppr;
 				width:470/@ppr;
 				height:23/@ppr;
 				line-height:23/@ppr;
-				text-align:left;
-				label{
-					margin-right:23/@ppr;
-					input{
-						background:red;
-					}
+				text-align: left;
+				.time-radio-inline{	
+				    margin-left:20/@ppr;
 					span{
-						display:inline-block;
-						margin-left:20/@ppr;
+						display:inline-block;						
 					}
+					input[type="radio"]:checked+ .radio-beauty{
+				        padding: 5/@ppr;
+						background-color:#fc8b94;
+						background-clip: content-box;
+				    }
+					.radio-beauty{
+					 	width: 25/@ppr;
+				        height: 25/@ppr;
+				        box-sizing: border-box;
+				        display: inline-block;
+				        border: 1/@ppr solid #ccc;
+				        vertical-align: middle;
+				        margin: 0 25/@ppr 0 0;
+				        border-radius: 50%;
+				         &:hover{
+				        padding: 5/@ppr;
+						background-color:green;
+						background-clip: content-box;
+				        }
+
+					 }
+					
+					 
+
 				}
+				.seven{
+					margin-left:23/@ppr;
+				}
+				
 
 			}
 			.way-form-group{
@@ -540,15 +589,37 @@
 			    h4{
 					display:inline-block;
 					position:relative;	
-					margin-right:16/@ppr;				
+					margin-right:18/@ppr;				
 					font-size:24/@ppr;
 					font-weight:400;
 				}
 				label{
-					margin-right:20/@ppr;
+					margin-right:18/@ppr;
 					span{
-						margin-left:20/@ppr;
+						// margin-left:20/@ppr;
 					}
+					input[type="radio"]:checked+ .radio-beauty{
+				        padding: 5/@ppr;
+						background-color:#fc8b94;
+						background-clip: content-box;
+				    }
+					.radio-beauty{
+					 	width: 25/@ppr;
+				        height: 25/@ppr;
+				        box-sizing: border-box;
+				        display: inline-block;
+				        border: 1/@ppr solid #ccc;
+				        vertical-align: middle;
+				        margin: 0 25/@ppr 0 0;
+				        border-radius: 50%;
+				         &:hover{
+				        padding: 5/@ppr;
+						background-color:green;
+						background-clip: content-box;
+				        }
+					 }
+					
+
 				}
 			}
 			.commit-btn{

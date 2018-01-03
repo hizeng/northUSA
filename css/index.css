@@ -449,7 +449,7 @@
 .PG_from .form_cell form .time-form-group-up h4 {
   position: relative;
   display: inline-block;
-  margin-right: 0.3125rem;
+  margin-right: 0.015625rem;
   width: 1.40625rem;
   height: 0.359375rem;
   line-height: 0.359375rem;
@@ -458,31 +458,69 @@
   font-weight: 400;
 }
 .PG_from .form_cell form .time-form-group-up label {
-  margin-right: 0.3125rem;
+  margin-left: 0.3125rem;
 }
 .PG_from .form_cell form .time-form-group-up label span {
   display: inline-block;
-  margin-left: 0.3125rem;
+}
+.PG_from .form_cell form .time-form-group-up label .radio-beauty {
+  width: 0.390625rem;
+  height: 0.390625rem;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0.015625rem solid #ccc;
+  vertical-align: middle;
+  margin: 0 0.390625rem 0 0;
+  border-radius: 50%;
+}
+.PG_from .form_cell form .time-form-group-up label .radio-beauty:hover {
+  padding: 0.078125rem;
+  background-color: green;
+  background-clip: content-box;
+}
+.PG_from .form_cell form .time-form-group-up label input[type="radio"]:checked + .radio-beauty {
+  padding: 0.078125rem;
+  background-color: #fc8b94;
+  background-clip: content-box;
 }
 .PG_from .form_cell form .time-form-group-down {
   position: relative;
   margin-top: 0.625rem;
-  margin-left: 2.34375rem;
+  margin-left: 2.03125rem;
   font-size: 0.375rem;
   width: 7.34375rem;
   height: 0.359375rem;
   line-height: 0.359375rem;
   text-align: left;
 }
-.PG_from .form_cell form .time-form-group-down label {
-  margin-right: 0.359375rem;
-}
-.PG_from .form_cell form .time-form-group-down label input {
-  background: red;
-}
-.PG_from .form_cell form .time-form-group-down label span {
-  display: inline-block;
+.PG_from .form_cell form .time-form-group-down .time-radio-inline {
   margin-left: 0.3125rem;
+}
+.PG_from .form_cell form .time-form-group-down .time-radio-inline span {
+  display: inline-block;
+}
+.PG_from .form_cell form .time-form-group-down .time-radio-inline input[type="radio"]:checked + .radio-beauty {
+  padding: 0.078125rem;
+  background-color: #fc8b94;
+  background-clip: content-box;
+}
+.PG_from .form_cell form .time-form-group-down .time-radio-inline .radio-beauty {
+  width: 0.390625rem;
+  height: 0.390625rem;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0.015625rem solid #ccc;
+  vertical-align: middle;
+  margin: 0 0.390625rem 0 0;
+  border-radius: 50%;
+}
+.PG_from .form_cell form .time-form-group-down .time-radio-inline .radio-beauty:hover {
+  padding: 0.078125rem;
+  background-color: green;
+  background-clip: content-box;
+}
+.PG_from .form_cell form .time-form-group-down .seven {
+  margin-left: 0.359375rem;
 }
 .PG_from .form_cell form .way-form-group {
   margin-top: 0.625rem;
@@ -495,15 +533,32 @@
 .PG_from .form_cell form .way-form-group h4 {
   display: inline-block;
   position: relative;
-  margin-right: 0.25rem;
+  margin-right: 0.28125rem;
   font-size: 0.375rem;
   font-weight: 400;
 }
 .PG_from .form_cell form .way-form-group label {
-  margin-right: 0.3125rem;
+  margin-right: 0.28125rem;
 }
-.PG_from .form_cell form .way-form-group label span {
-  margin-left: 0.3125rem;
+.PG_from .form_cell form .way-form-group label input[type="radio"]:checked + .radio-beauty {
+  padding: 0.078125rem;
+  background-color: #fc8b94;
+  background-clip: content-box;
+}
+.PG_from .form_cell form .way-form-group label .radio-beauty {
+  width: 0.390625rem;
+  height: 0.390625rem;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0.015625rem solid #ccc;
+  vertical-align: middle;
+  margin: 0 0.390625rem 0 0;
+  border-radius: 50%;
+}
+.PG_from .form_cell form .way-form-group label .radio-beauty:hover {
+  padding: 0.078125rem;
+  background-color: green;
+  background-clip: content-box;
 }
 .PG_from .form_cell form .commit-btn {
   margin-top: 0.78125rem;
